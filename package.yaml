@@ -1,0 +1,20 @@
+name: haskell-graphql
+version: 0.1.0
+synopsis: Haskell GraphQL Server
+description: See README
+maintainer: Calum Sieppert <sieppertcalum@gmail.com>
+github: rynoV/haskell-graphql
+category: Development
+
+ghc-options: -Wall
+
+dependencies:
+  - base >= 4.7 && < 5
+  - morpheus-graphql
+  - text
+  - bytestring
+  - scotty
+
+executable:
+  main: Main.hs
+  source-dirs: src
